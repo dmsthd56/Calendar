@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Calendar Project</title>
+  </head>
+
+  <body>
+    <section>
+      <div class="image-box">
+        <img src="images/vanilla_coding_logo.png"/>
+      </div>
+      <h1>Calendar</h1>
+
+      <!-- 달력 Start -->
+      <button type="button" class="btns L" onclick="prevM();"><<</button>
+      <button type="button" class="btns R" onclick="nextM();">>></button>
+
+      <div class="printDate">
+        <p class="dateF" id="dateF"></p>
+        <p class="dateL" id="dateL"></p>
+      </div>
+
+      <div class="calenderOutline">
+        <div class="dates">
+          <div>SUN</div>
+          <div>MON</div>
+          <div>TUE</div>
+          <div>WED</div>
+          <div>THU</div>
+          <div>FRI</div>
+          <div>SAT</div>
+        </div>
+
+        <div class="dateForm" id="dateForm">
+      
+        </div>
+      </div>
+
+      <!-- 달력 End -->
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+body {
+  background-image: url("./images/bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Varela Round", sans-serif;
+  box-sizing: border-box;
+}
+* {box-sizing: border-box;}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  font-size: 60px;
+}
+section{
+  position: relative;
+  padding-top: 20px;
+}
+
+
+.image-box{
+  width: 200px;
+  height: 100px;
+  margin: 0 auto;
+  /* margin-top: 50px; */
+}
+.image-box img {
+  width: 100%; 
+  object-fit: contain;
+}
+
+.btns{
+  border: none;
+  background: none;
+  width: 50px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 40px;
+  position: absolute;
+  top: 70%;
+  cursor: pointer;
+  color: #333;
+}
+.L{
+  left: 20%;
+}
+.R{
+  right: 20%;
+}
+
+.printDate{
+  width: 25%;
+  margin: 0 auto;
+}
+.printDate p {
+  text-align: center;
+  font-weight: 700;
+}
+.dateF{
+  font-size: 40px;
+}
+.dateL{
+  font-size: 35px;
+}
+
+.calenderOutline{
+  width: 25%;
+  margin: 0 auto;
+}
+.dates {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 10px;
+  text-align: center;
+}
+.dates div{
+  font-size: 20px;
+  font-weight: 700;
+  height: 50px;
+  line-height: 50px;
+
+}
+.dateForm{
+  width: 100%;
+  height: 350px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 5px;
+}
+.dateForm div{
+  font-weight: bold;
+  color: #333;
+  min-height: 100px;
+  padding: 1rem 1.3rem;
+  border-radius: 10px;
+  border: 1px solid #777;
+  text-align: center;
+}
+
+
+.other{
+  opacity: .3;
+}
